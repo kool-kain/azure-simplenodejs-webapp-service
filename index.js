@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World In Course!!!");
+    response.end("Hola desde el curso Inf en nube");
 });
 
 const port = process.env.PORT || 3000;
